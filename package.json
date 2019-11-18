@@ -27,5 +27,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.1",
+    "babel-core": "^6.26.3"
+  },
+  "presets": [
+    "@babel/preset-env"
+  ]
 }
